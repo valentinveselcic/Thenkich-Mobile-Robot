@@ -131,9 +131,9 @@ The main controller hosts a full-duplex WebSocket endpoint at `/ws`.
 
 Telemetry is transmitted every $3^\circ$ of sweep motion as a comma-separated tuple:
 
-$$
+```math
 \text{angle},\text{distance},\text{pir\_status}
-$$
+```
 
 | Field | Type | Domain | Description |
 | :--- | :--- | :--- | :--- |
